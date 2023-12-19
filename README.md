@@ -7,7 +7,7 @@
 The device must be rooted, if it is not rooted then you cannot disable thermal on the device
 
 #### How to disable the thermal
-•Open the Termux application and Type in terminal:
+•Open the Termux application and type on terminal:
 
 `su`
 
@@ -16,6 +16,9 @@ The device must be rooted, if it is not rooted then you cannot disable thermal o
 ###### For Disable Thermal
 
 `stop thermal thermal_manager thermald thermalloadalgod`
+
+Disable Thermal on the device so that the CPU does not experience throttling and the performance on the device is more stable, however, the temperature on the device will heat up quickly
+
 
 ###### For Enable Thermal
 
