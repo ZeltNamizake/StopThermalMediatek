@@ -1,6 +1,9 @@
 # How to disable thermal on Mediatek chipset with Termux
 <div align="center">
   <img src="https://telegra.ph/file/48fa03b640a63e3012ef4.png" width="200" height="200">
+  <br>
+<img alt="Static Badge" src="https://img.shields.io/badge/MAGISK-%2300AF9C?style=for-the-badge&logo=Magisk&labelColor=black" width="200" height="50">
+
 </div>
 
 ## Note!
