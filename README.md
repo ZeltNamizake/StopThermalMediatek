@@ -1,4 +1,4 @@
-# How to disable thermal on Mediatek chipset with Termux
+# How to stop and run thermal on Mediatek chipset with Termux
 <div align="center">
   <img src="https://telegra.ph/file/48fa03b640a63e3012ef4.png" width="200" height="200">
   <br>
@@ -7,16 +7,16 @@
 </div>
 
 ## Note!
-The device must be rooted, if it is not rooted then you cannot disable thermal on the device
+The device must be rooted, if it is not rooted then you cannot stop or run thermal on the device
 
-#### How to disable the thermal
+#### How to get Termux to access root
 •Open the Termux application and type on terminal:
 
 `su`
 
 •Allow application Termux for Superuser
 
-•Click CTRL+D
+•Click CTRL+D (for exit)
 
 ##### How to install it:
 `pkg install tsu`
@@ -27,11 +27,11 @@ The device must be rooted, if it is not rooted then you cannot disable thermal o
 
 `tsu`
 
-##### How to disable Thermal
+##### How to stop Thermal
 `bash dthermal.sh`
 
-##### How to enable Thermal
+##### How to run Thermal
 `bash ethermal.sh`
 
-##### To determine whether it is disabled or active
-`getprop | grep thermal`
+##### To determine whether it is stop or run
+`getprop | grep thermal
