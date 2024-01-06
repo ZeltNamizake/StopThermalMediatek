@@ -19,7 +19,7 @@ The device must be rooted, if it is not rooted then you cannot stop or run therm
 •Click CTRL+D (for exit)
 
 ##### How to install it:
-`pkg install tsu`
+`pkg install bash && pkg install tsu -y`
 
 `git clone https://github.com/ZeltNamizake/StopThermalMediatek`
 
