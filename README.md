@@ -9,7 +9,9 @@
 ## Note!
 The device must be rooted, if it is not rooted then you cannot stop or run thermal on the device
 
-#### How to get Termux to access root
+If you stop Thermal, you can maximize the device's performance, but the device will heat up quickly and consume a lot of battery it's better to stop thermal if only for playing games
+
+### How to get Termux to access root
 •Open the Termux application and type on terminal:
 
 `su`
@@ -18,7 +20,7 @@ The device must be rooted, if it is not rooted then you cannot stop or run therm
 
 •Click CTRL+D (for exit)
 
-##### How to install it:
+#### How to install it:
 `pkg install bash && pkg install tsu -y`
 
 `git clone https://github.com/ZeltNamizake/StopThermalMediatek`
@@ -27,11 +29,11 @@ The device must be rooted, if it is not rooted then you cannot stop or run therm
 
 `tsu`
 
-##### How to stop Thermal
+#### How to stop Thermal
 `bash dthermal.sh`
 
-##### How to run Thermal
+#### How to run Thermal
 `bash ethermal.sh`
 
-##### To determine whether it is stop or run
+#### To determine whether it is stop or run
 `getprop | grep thermal`
