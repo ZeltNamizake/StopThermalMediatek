@@ -34,4 +34,4 @@ The device must be rooted, if it is not rooted then you cannot stop or run therm
 `bash ethermal.sh`
 
 ##### To determine whether it is stop or run
-`getprop | grep thermal
+`getprop | grep thermal`
